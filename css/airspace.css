@@ -94,14 +94,14 @@ font header .navbar-default .navbar-nav li a:hover {
 					Index Start
 -----------------------------------------------*/
 /*--
-	Slider Start
+ Start
 --*/
 #slider {
   background: url("../img/courtyard.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 170px 0 250px 0;
   position: relative;
 }
 #slider:before {
@@ -125,7 +125,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
 }
 #slider .block p {
   font-size: 23px;
@@ -133,12 +133,13 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  padding-bottom: 15px;
 }
 /*--
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -215,12 +216,13 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #call-to-action h2 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   line-height: 33px;
   margin: 0;
   font-size: 30px;
 }
 #call-to-action p {
+  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -255,7 +257,7 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 #feature h2 {
   font-size: 28px;
@@ -472,10 +474,10 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-contant ul li {
-  display: inline-block;
+  display: center;
   width: 22%;
   overflow: hidden;
-  margin: 10px;
+  margin: 15px;
   position: relative;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
@@ -488,13 +490,16 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  background: rgba(192, 192, 192, 0.4);
 }
+
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
-  color: #fff;
+  color: #404040;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 10px;
@@ -511,6 +516,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: auto;
 }
+/*
 #portfolio-work .block .portfolio-contant .overly {
   position: absolute;
   top: 0;
@@ -524,9 +530,10 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .3s all;
   text-align: center;
 }
+*/
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
-  top: 50%;
+  top: 4%;
   left: 0%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
