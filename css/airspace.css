@@ -525,6 +525,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li a p {
   font-size: 15px;
+  color: grey;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
@@ -535,7 +536,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: auto;
 }
-/*
+
 #portfolio-work .block .portfolio-contant .overly {
   position: absolute;
   top: 0;
@@ -549,9 +550,10 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .3s all;
   text-align: center;
 }
-*/
+
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
+  color: black;
   top: 4%;
   left: 0%;
   -webkit-transform: translate(0%, 50%);
