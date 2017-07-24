@@ -66,14 +66,14 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 12px 0;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 header .navbar-default {
   background: none;
@@ -84,7 +84,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 10px 26px;
+  padding: 12px 20px;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -237,7 +237,8 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature {
+@media screen and (min-width: 1000px) {
+  #feature  {
   background: url("../img/JumpingGirl.jpg") no-repeat;
   background-position: 100% 94px;
   width: 100%;
@@ -257,8 +258,31 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 60px 0;
-}
+  padding-top: 50px;
+}}
+@media screen and (max-width: 999px) {
+  #feature {
+  background: url("../img/JumpingGirl(blurred).jpg") no-repeat;
+  background-position: 100% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding-top: 50px;
+}}
 #feature:before{
   content: "";
   position: absolute;
@@ -276,10 +300,16 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 600;
   margin-bottom: 20px;
 }
+@media screen and (min-width:1000px) {
 #feature p {
   color: #8d8f92;
-  margin-bottom: 30px;
-}
+  margin-bottom: 20px;
+}}
+@media screen and (max-width:999px) {
+#feature p {
+  color: #242526;
+  margin-bottom: 20px;
+}}
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
