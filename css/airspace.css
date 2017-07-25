@@ -448,6 +448,94 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 /*--
+	FAQ Page Start
+--*/
+#faq-header {
+  background: url("../img/messytable.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#faq-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#faq-header .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 0px;
+  text-align: center;
+}
+#faq-header .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#faq-header .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/*--
+	Social Impact Start
+--*/
+#si-header {
+  background: url("../img/Openbook.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#si-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#si-header .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 0px;
+  text-align: center;
+}
+#si-header .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#si-header .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/*--
 	Blog-work Start
 --*/
 #blog-header {
@@ -485,6 +573,50 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: capitalize;
 }
 #blog-header .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/*--
+	Contact Us Page Start
+--*/
+#contactpg-header {
+  background: url("../img/Pencil.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#contactpg-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#contactpg-header .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 0px;
+  text-align: center;
+}
+#contactpg-header .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#contactpg-header .block p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
