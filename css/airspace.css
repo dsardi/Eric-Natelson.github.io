@@ -143,19 +143,21 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 #intro .block h2 {
-  padding-top: 35px;
+  padding-top: 50px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
   color: #7B7B7B;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 #intro .block img {
   padding-left: 40px;
+  padding-bottom: 30px;
   width: 100%;
 }
 #intro .img-right img {

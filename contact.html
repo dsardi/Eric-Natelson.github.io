@@ -24,26 +24,32 @@ permalink: /contact/
       <h3 style="padding-bottom:25px;">Whether you're a prospective client, business partner, or press, we would love to hear from you. Please feel free to reach out and we'll be sure to get back to you within 24 hours.</h2>
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form id="gform" method="POST" class="pure-form pure-form-stacked"
+            action="https://script.google.com/macros/s/AKfycbx6Dof5j9Jl8PFGFj_C3dEYXrIkGc5WvwmEYtoFS6tQ9NBbiGVj/exec">
+              <!-- change the form action to your script url -->
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <fieldset class="pure-group">
+                <input id="name" name="name" type="text" class="form-control" placeholder="Name"/>
+              </fieldset>
             </div>
+
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <fieldset class="pure-group">
+                <input id="email" name="email" class="form-control" type="email" value=""
+                required placeholder="Email"/>
+                <span id="email-invalid" style="display:none">
+                  Must be a valid email address</span>
+              </fieldset>
             </div>
+
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <fieldset class="pure-group">
+                <textarea class="form-control" id="message" name="message" rows="10" placeholder="Message"></textarea>
+              </fieldset>
             </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form action="mailto:info@admissionsmarket.com" method="post" enctype="text/plain">
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+            <div>
+              <button class="btn btn-default type="submit"">Send Message</button>
             </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
           </form>
         </div>
       </div>
