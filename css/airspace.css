@@ -358,6 +358,10 @@ font header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #DEDEDE;
   padding: 24px;
   margin: 0 auto;
+  -webkit-transition: 2s ease-in-out left;
+    -moz-transition: 2s ease-in-out left;
+    -o-transition: 2s ease-in-out left;
+    transition: 2s ease-in-out left;
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
