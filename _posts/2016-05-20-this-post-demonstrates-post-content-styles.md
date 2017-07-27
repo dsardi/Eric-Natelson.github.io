@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MBAs Weigh in on Admissions Consulting"
-author: "Kirsten Sardi"
+author: "AdmissionsMarket Staff Member"
 meta: ""
 ---
 
