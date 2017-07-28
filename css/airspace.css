@@ -1074,3 +1074,11 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+#share-buttons img {
+width: 55px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
