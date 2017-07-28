@@ -171,6 +171,36 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+#blog-intro {
+  padding: 40px 0;
+}
+#blog-intro .block h2 {
+  padding-top: 38px;
+  line-height: 27px;
+  margin: 0;
+}
+#blog-intro .block p {
+  color: #7B7B7B;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#blog-intro .block img {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+#blog-intro .img-right img {
+  padding-right: 20px;
+  width: 100%;
+}
+#blog-intro .section-title {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+#blog-intro .section-title p {
+  padding-top: 20px;
+}
 /*--
 	service Start
 --*/
@@ -358,10 +388,6 @@ font header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #DEDEDE;
   padding: 24px;
   margin: 0 auto;
-  -webkit-transition: 2s ease-in-out left;
-    -moz-transition: 2s ease-in-out left;
-    -o-transition: 2s ease-in-out left;
-    transition: 2s ease-in-out left;
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
