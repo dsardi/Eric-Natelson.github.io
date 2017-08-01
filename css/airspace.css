@@ -1137,7 +1137,7 @@ display: inline;
     border: 1px solid #888;
     width: 75%;
 }
-@media scren and (max-width:768px;) {
+@media screen and (max-width:768px) {
     .modal-content {
       padding:5px;
       width: 90%;
