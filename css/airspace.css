@@ -1135,12 +1135,12 @@ display: inline;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 70%;
 }
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: #grey;
     float: right;
     font-size: 28px;
     font-weight: bold;
