@@ -1137,6 +1137,17 @@ display: inline;
     border: 1px solid #888;
     width: 75%;
 }
+@media scren and (max-width:768px;) {
+    .modal-content {
+      padding:5px;
+      width: 90%;
+    }
+}
+.modal-content p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
 
 /* The Close Button */
 .close {
