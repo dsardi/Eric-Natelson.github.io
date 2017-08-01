@@ -91,10 +91,12 @@ header .navbar-default {
 }
 header .navbar-default .navbar-nav {
   padding-top: 4px;
+  padding-left: 0px;
 }
 header .navbar-default .navbar-nav li a {
+
   color: #333333;
-  padding: 12px 18px;
+  padding: 12px 20px;
   font-size: 14px;
   font-weight: bold;
 }
