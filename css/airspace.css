@@ -83,7 +83,6 @@ header .navbar-brand {
 }
 @media screen and (max-width: 768px) {
     header .navbar-brand {
-      margin-left: 1px;
       padding-top: 10px;
     }
 }
