@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: http://admissionsmarket.com/sitemap.xml
