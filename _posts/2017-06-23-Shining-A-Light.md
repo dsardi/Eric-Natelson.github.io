@@ -15,11 +15,11 @@ graduates of a top business school. Admissions consultants might work at a large
 firm of one. They offer a myriad of services from strategy and brainstorming sessions to help mine your unique strengths, to
 creating a customized action plan for each of your apps, to refining essays and offering resume reviews.
 
-Given that a reported 57% of MBA applicants used an admissions consultant, partnering with a consultant can give you the necessary
+Given that a reported <a href="http://aigac.org/wp-content/uploads/2013/06/AIGAC-2013-Prospect-Survey-Report-6-12-13-presentation.pdf">57% of MBA applicants used an admissions consultant</a>, partnering with a consultant can give you the necessary
 competitive edge in an already hyper competitive market. In addition to gaining highly individualized feedback on your candidacy,
 you’ll also benefit from a company’s collective knowledge and expertise whose sole goal should be to make you the most competitive
 applicant possible. These are people who eat, sleep, and breathe business school admissions, and they are committed to working alongside
-applicants to get them into their dream school. With acceptance rates to top 10 business schools hovering at just 14.5% in 2016, it’s no
+applicants to get them into their dream school. <a href="http://poetsandquants.com/2017/04/12/acceptance-rates-top-50-mba-programs/">With acceptance rates to top 10 business schools hovering at just 14.5% in 2016</a>, it’s no
 wonder that admissions consultants have become so indispensable. Still, with quality varying so dramatically, it’s critical that you
 choose the right one.
 
