@@ -382,6 +382,32 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 10px 20px;
 }
+
+/* Deadline Graph */
+#DeadlineGraph {
+  text-align: center;
+  padding: 5px 20px 5px 20px ;
+}
+
+ #DeadlineGraph table {
+   padding: 5px;
+ }
+#DeadlineGraph tbody {
+  color: black;
+}
+
+#DeadlineGraph th {
+  text-align: center;
+  padding: 15px;
+  color: Black;
+}
+
+#DeadlineGraph tr {
+  background: white;
+}
+#DeadlineGraph td {
+  padding: 15px;
+}
 /*--
 	content Start
 --*/
@@ -1162,31 +1188,4 @@ display: inline;
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-
-/* Deadline Graph */
-
-#DeadlineGraph {
-  text-align: center;
-  padding: 5px 20px 5px 20px ;
-}
-
- #DeadlineGraph table {
-   padding: 5px;
- }
-#DeadlineGraph tbody {
-  color: black;
-}
-
-#DeadlineGraph th {
-  text-align: center;
-  padding: 15px;
-  color: Black;
-}
-
-#DeadlineGraph tr {
-  background: white;
-}
-#DeadlineGraph td {
-  padding: 15px;
 }
